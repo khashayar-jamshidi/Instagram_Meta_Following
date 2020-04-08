@@ -18,7 +18,9 @@ This program is made with very simple codes that easily send messages and follow
 This is a very simple and light program to prevent the best way to block the use of time, which I solved with two random time rhythms.
 
 #x= .001 or.999 search for like and comm 
+
 x=.005        
+
 ###################           
 
 #smailtime Time_A <Time_B
