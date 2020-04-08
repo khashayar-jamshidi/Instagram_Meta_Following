@@ -1,5 +1,7 @@
-# instagram_meta
 
+
+
+This code is used in any convenient public system as long as you set up a web driver
 
 Instagram_Meta is an extremely light instagram bot that uses the Web geckodriver
 
@@ -18,11 +20,15 @@ This is a very simple and light program to prevent the best way to block the use
 #x= .001 or.999 search for like and comm 
 x=.005        
 ###################           
-#time
+
 #smailtime Time_A <Time_B
+
 Time_A = 5
+
 #bigtime
-Time_B = 15            
+
+Time_B = 15      
+
 ###################      
 
 
