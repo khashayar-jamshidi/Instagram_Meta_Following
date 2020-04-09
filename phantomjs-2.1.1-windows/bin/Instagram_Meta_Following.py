@@ -77,8 +77,8 @@ class Instagram_Meta_Following :
                 print('CLICK LIKE AND COMMENT AND Following NAME IS : %s' %pic_href)
                 # click comment pic 
                 ################                             
-                p=random.randint(0,-1)
-                q=random.randint(0,-1)
+                p=random.randint(0,4)
+                q=random.randint(0,3)
                 letter=list1[p]+list2[q] 
                 ###################         
                 time.sleep(random.randint(Time_A,Time_B))                                                                      
