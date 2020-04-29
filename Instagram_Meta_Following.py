@@ -49,7 +49,7 @@ class Instagram_Meta_Following :
         ################
         hh=1
         ################
-        for i in range(1,3):
+        for i in range(1,5):
             try:
               scheight = .001
               while scheight < x:
@@ -94,8 +94,8 @@ class Instagram_Meta_Following :
                 time.sleep(3)
                 
 ###################           
-#x= .10 or. serch for following and comm 
-x=.005
+#x= .10 or.045 serch for following and comm 
+x=.035
 ###################           
 #time
 ##smailtime Time_A <Time_B
@@ -121,7 +121,8 @@ while True:
         ig.Following_Meta(flv)
     except Exception:
         ig.CloseBrowrse()
-        time.sleep(20)
+        #stand by 100 min
+        time.sleep(6000)
         ig = Instagram_Meta_Following(username,password)
         ig.login()
         
